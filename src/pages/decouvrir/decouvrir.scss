@@ -1,0 +1,135 @@
+page-decouvrir {
+
+  @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+
+  div#madeleine{
+    background-color: white;
+    text-align: justify;
+
+    img{
+      margin-top: 0px;
+    }
+  }
+
+  div#porcelaine{
+    background-color: white;
+    text-align: justify;
+  }
+
+  h1.porcelaine{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #064270;
+
+  }
+
+  h1.madeleine{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #d67b18;
+  }
+
+  h2{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px!important;
+    padding-left: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  p.madeleine{
+    border-left: 5px solid #d67b18;
+    padding-left: 14px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  p.porcelaine{
+    border-left: 5px solid #064270;
+    padding-left: 14px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  div#bienvenue{
+    height: 85vh;
+    background-image: url("../assets/imgs/fondpage9.jpg");
+    background-size: cover;
+
+
+    h1{
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 0px;
+      color: white;
+      font-family: 'Gloria Hallelujah', cursive;
+
+
+
+    }
+
+  }
+
+  .scroll-content{
+    padding: 0px!important;
+  }
+
+
+  div.contener{
+    text-align: center;
+  }
+
+  div#infos{
+    text-align: left;
+    width: 100%;
+    height: auto;
+    border-top: solid 2px #80ba27;
+
+    div#gauche{
+      float: left;
+      width: 15%;
+
+      img{
+        margin-top: 5px;
+        margin-left: 20px;
+      }
+
+    }
+
+    div#droite{
+      float: right;
+      width: 85%;
+      padding-left: 40px;
+      padding-bottom: 20px;
+    }
+
+
+    h1{
+      font-size: 18px;
+      font-family: 'Gloria Hallelujah', cursive;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    span{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      font-size: 10px;
+    }
+
+  }
+
+}

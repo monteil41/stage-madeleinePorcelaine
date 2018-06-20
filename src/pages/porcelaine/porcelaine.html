@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Porcelaines</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+
+        <button ion-item *ngFor="let porcelaine of porcelaines" (click)="onShowPorcelaineDetail(porcelaine);">
+          <div id="titre">
+            {{ porcelaine.nom }}
+          </div>
+          <div id="image-gauche">
+            <img src="assets/imgs/porcelaine-icone.png" width="35px">
+          </div>
+      </button>
+  </ion-list>
+
+</ion-content>

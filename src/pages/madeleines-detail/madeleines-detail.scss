@@ -1,0 +1,89 @@
+page-madeleines-detail {
+
+
+    padding: 0px;
+    margin: 0px;
+
+hr{
+
+margin-top: 40px;
+margin-bottom: 40px;
+width: 38%;
+
+
+}
+
+div#adresse{
+
+text-align: left;
+
+
+}
+div#telephone{
+
+text-align: left;
+
+
+}
+
+div#horaires{
+
+text-align: left;
+
+}
+
+span.bold{
+  font-weight: bold;
+}
+
+ion-card.card {
+  background-color: #F2F2F2;
+}
+
+div.bas{
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+div.titre{
+  background-color: #d67b18;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 5px;
+}
+
+div.titre h1{
+
+  color: white;
+  text-align: center;
+
+}
+
+.card-header-md{
+  padding: 0;
+}
+
+.card-content-md{
+  padding: 0;
+}
+
+.card-header-ios {
+padding: 0;
+}
+
+.card-content-ios{
+  padding: 0;
+}
+
+.card-header-wp {
+padding: 0;
+}
+
+.card-content-wp{
+  padding: 0;
+}
+
+}

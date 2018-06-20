@@ -1,0 +1,26 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Actualités</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+
+        <button ion-item *ngFor="let quote of quotes" (click)="onShowQuoteDetail(quote);">
+          <div id="titre">
+            {{ quote.title.rendered }}
+          </div>
+          <div id=image>
+            <img src="{{ quote.image.guid }}"/>
+          </div>
+          <div id="moment">
+            {{ quote.moment }}
+          </div>
+      </button>
+  </ion-list>
+
+</ion-content>

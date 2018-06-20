@@ -1,0 +1,22 @@
+page-home {
+    #map {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    ion-app._gmaps_cdv_ .nav-decor{
+        background-color: transparent !important;
+    }
+
+    h1.titre{
+      color: #1690f4;
+      font-size: 17px;
+    }
+
+    ion-header.header{
+      background-color: red!important;
+    }
+}

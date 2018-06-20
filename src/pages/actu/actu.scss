@@ -1,0 +1,38 @@
+page-actu {
+
+div#image{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+  div#titre{
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #7fbc41;
+    color: white;
+    }
+
+    img{
+      width: 100%;
+      margin-bottom: 0px;
+    }
+
+    div#moment{
+      padding-top: 4px;
+      padding-bottom: 4px;
+      width: auto;
+      margin-bottom: 0px;
+      margin-top: -25px;
+      position: absolute;
+      text-align: center;
+      background-color: #7fbc41;
+      color: white;
+      font-size: 10px;
+      text-transform: uppercase;
+      }
+
+}

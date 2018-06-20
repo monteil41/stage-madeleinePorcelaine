@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Madeleines</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+
+        <button ion-item *ngFor="let madeleine of madeleines" (click)="onShowMadeleineDetail(madeleine);">
+          <div id="titre">
+            {{ madeleine.nom }}
+          </div>
+          <div id="image-gauche">
+            <img src="assets/imgs/madeleine-icone.png" width="35px">
+          </div>
+      </button>
+  </ion-list>
+
+</ion-content>

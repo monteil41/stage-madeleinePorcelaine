@@ -1,0 +1,50 @@
+<!--
+  Generated template for the QuotesDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ madeleine.nom }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <img class="image-content" src="{{madeleine.image.guid}}"/>
+      <div class="fond-title">
+      <div class="titre">
+        <h1 class="title-content">
+            {{ madeleine.nom }}
+        </h1>
+      </div>
+    </div>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="bas">
+        <div id=description>
+          {{madeleine.description}}
+        </div>
+      </div>
+        <div class="bas">
+          <div id=horaires>
+            <span class="bold">Horaires :</span> {{madeleine.horaires}}
+          </div>
+            <div id=adresse>
+              <span class="bold">Adresse :</span> {{madeleine.adresse}}
+            </div>
+            <div id=telephone>
+              <span class="bold">Téléphone :</span> {{madeleine.telephone}}
+            </div>
+            <div id=site>
+              <span class="bold">Site web :</span> {{madeleine.site}}
+            </div>
+        </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
